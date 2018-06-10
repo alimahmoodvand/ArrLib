@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.raac.arrlib.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/topbanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple"
+            android:onClick="btnClick"
+            android:text="Show top banner"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/testbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple"
+            android:text="test"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/bottombanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/ripple"
+            android:onClick="btnClick"
+            android:text="Show bottom banner"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/popup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple"
+            android:onClick="btnClick"
+            android:text="Show popup"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/topofscreenbanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple"
+            android:onClick="btnClick"
+            android:text="Show top of screen banner"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/bottomofscreenbanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple"
+            android:onClick="btnClick"
+            android:text="Show bottom of screen banner"
+            android:textAlignment="center"
+
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/topinappbanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple"
+            android:onClick="btnClick"
+            android:text="Show top in app banner"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/bottominappbanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple"
+            android:onClick="btnClick"
+            android:text="Show bottom in app banner"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+    </FrameLayout>
+</RelativeLayout>
